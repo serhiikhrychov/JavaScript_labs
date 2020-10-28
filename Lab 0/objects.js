@@ -1,6 +1,5 @@
 "use strict";
 
-
 // динамічне створення об'єкту'
 let bodyGuard = {};
   bodyGuard.name = 'Alex';
