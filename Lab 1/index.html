@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Practical work 1</p>
+
+  <script>
+    alert( 'Hello, lets start our practical work!' );
+  </script>
+  
+  <script src="function.js"></script>
+  
+  <script src="closures.js"></script>
+
+  <input id="elem" type="button" value="Нажми меня!">
+  
+  <script>
+	
+  	function sayHi() {
+  	  let b = 0;
+  	  return function() {
+  	    ++b;
+        alert('Hello! ' + b);
+  	  }
+  	}
+
+  	elem.onclick = sayHi();
+	
+  </script>
+
+  <p>Thank's for your time</p>
+
+</body>
+
+</html>
